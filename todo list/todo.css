@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color:white;
+}
+.check{
+    height:20px;
+    font-size: larger;
+    
+}
+#id{
+    height:30px;
+    width:150px;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius:20px;
+}
+button{
+    height:30px;
+    width:100px;
+    background-color: orange;
+    color:black;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <h1>Your To Do List</h1>
+    <input id="taskinput" placeholder="Enter your task" onkeydown="if(event.key==='Enter') todo.addTask()">
+    <button onclick="todo.addTask()">Add Task</button>
+    
+    <h2>Pending Tasks</h2>
+    <ul id="tasklist"></ul>
+
+    <h2>Completed Tasks</h2>
+    <ul id="completedlist"></ul> 
+
+    <script src="script.js"></script>
+</body>
+</html>
