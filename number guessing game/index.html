@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-container">
+        <h1>Guess the Number Buddy 😁</h1>
+        <p class="instructions">I'm thinking of a number between <span>1</span> and <span>100</span>. Can you guess it?</p>
+        <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100">
+        <button id="submitGuess">Submit</button>
+        <p id="feedback"></p>
+            <p class="score">Attempts left: <span id="attempts">5</span></p>
+            <button id="restartGame" class="hidden">Play Again</button>
+
+        
+    </div>
+    <script src="server.js"></script>
+</body>
+</html>
