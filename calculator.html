@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p>
+        <button onclick="number+='1'; console.log(`${number}`)">1</button>
+        <button onclick="number+='2'; console.log(`${number}`)">2</button>
+        <button onclick="number+='3'; console.log(`${number}`)">3</button>
+        <button onclick="number+=' + '; console.log(`${number}`)">+</button>
+    </p>
+    <p>
+        <button onclick="number+='4'; console.log(`${number}`)">3</button>
+        <button onclick="number+='5'; console.log(`${number}`)">4</button>
+        <button onclick="number+='6'; console.log(`${number}`)">5</button>
+        <button onclick="number+=' - '; console.log(`${number}`)">-</button>
+    </p>
+    <p>
+        <button onclick="number+='7'; console.log(`${number}`)">6</button>
+        <button onclick="number+='8'; console.log(`${number}`)">7</button>
+        <button onclick="number+='9'; console.log(`${number}`)">8</button>
+        <button onclick="number=eval(number); console.log(`${number}`)">=</button>
+        <button onclick="number+=' / '; console.log(`${number}`)">/</button>
+    </p>
+    <script>
+        let number='';
+    </script>
+</body>
+</html>
