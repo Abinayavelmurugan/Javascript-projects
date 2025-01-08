@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings</title>
+</head>
+<body>
+    <h1>Greetings</h1>
+    <button onclick="
+    const now=new Date();
+    const hours=now.getHours();
+    if(hours>=0 && hours<12) alert('Good morning');
+    else if(hours>=12 && hours<=6) alert('Good afternoon');
+    else alert('Good night');
+    console.log(typeof hours);
+    ">Generate the greetings</button>
+    
+    
+</body>
+</html>
